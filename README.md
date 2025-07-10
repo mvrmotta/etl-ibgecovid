@@ -33,8 +33,8 @@ Este projeto tem como objetivo demonstrar um pipeline ETL utilizando Python, int
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/mvrmotta/etl-ibgecovid.git
+cd etl-ibgecovid
 ```
 
 ### 2. Crie um ambiente virtual (opcional, mas recomendado)
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 Abra o arquivo `CASE_ETL_WEBURN.ipynb` com Jupyter Notebook ou VSCode e siga as instruções.
 
-Durante a execução, será solicitada sua API Key de forma segura via `getpass`.
+Durante a execução, será solicitada sua API Key via `getpass`.
 
 ---
 
@@ -100,11 +100,8 @@ CREATE TABLE covid_brasilio (
 
 ---
 
-## Observações Finais
-
-- O projeto foi construído para ser **reprodutível**, **escalável**, **simples de rodar** e **com boa modelagem de dados**.
+- O projeto foi construído para ser **escalável**, **simples de rodar** e **com boa modelagem de dados**.
 - O uso de scripts `.py` separados favorece organização, reuso e testes modulares.
-- O `getpass` garante segurança ao capturar a API Key do usuário.
 
 ---
 
