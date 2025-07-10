@@ -1,22 +1,22 @@
-# 📊 Case Técnico – ETL com Dados do IBGE e COVID-19 (Brasil.IO)
+# Case Técnico – ETL com Dados do IBGE e COVID-19 (Brasil.IO)
 
 Este projeto tem como objetivo demonstrar um pipeline ETL utilizando Python, integrando dados públicos do IBGE e Brasil.IO para construção de um banco de dados relacional com modelagem adequada. O projeto foi desenvolvido como parte de um case técnico para a WeBurn.
 
 ---
 
-## 🚀 Tecnologias e Ferramentas Utilizadas
+## Tecnologias e Ferramentas Utilizadas
 
 - **Python 3.x**
 - **pandas** e **requests** (ETL)
 - **SQLite3** (armazenamento relacional simples)
 - **Jupyter Notebook** (execução e visualização)
 - **APIs utilizadas**:
-  - 📍 [IBGE - População por município (API de agregados)](https://servicodados.ibge.gov.br/api/docs/agregados)
-  - 🦠 [Brasil.IO - Dados de COVID-19](https://brasil.io/dataset/covid19/)
+  - [IBGE - População por município (API de agregados)](https://servicodados.ibge.gov.br/api/docs/agregados)
+  - [Brasil.IO - Dados de COVID-19](https://brasil.io/dataset/covid19/)
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── coleta_ibge.py             # Script de extração e tratamento dos dados do IBGE
@@ -28,7 +28,7 @@ Este projeto tem como objetivo demonstrar um pipeline ETL utilizando Python, int
 
 ---
 
-## ⚙️ Como Executar este Projeto
+##  Como Executar este Projeto
 
 ### 1. Clone o repositório
 
@@ -63,7 +63,7 @@ Durante a execução, será solicitada sua API Key de forma segura via `getpass`
 
 ---
 
-## 🧠 O que o projeto faz
+## O que o projeto faz
 
 1. Extrai os dados populacionais do IBGE via API
 2. Extrai os dados de COVID-19 por município via API Brasil.IO
@@ -75,7 +75,7 @@ Durante a execução, será solicitada sua API Key de forma segura via `getpass`
 
 ---
 
-## 🧪 Scripts SQL utilizados
+## Scripts SQL utilizados
 
 O script responsável por criar o schema do banco está dentro do notebook:
 
@@ -100,12 +100,12 @@ CREATE TABLE covid_brasilio (
 
 ---
 
-## ✅ Observações Finais
+## Observações Finais
 
-- O projeto foi construído para ser **reprodutível**, **simples de rodar** e **com boa modelagem de dados**.
+- O projeto foi construído para ser **reprodutível**, **escalável**, **simples de rodar** e **com boa modelagem de dados**.
 - O uso de scripts `.py` separados favorece organização, reuso e testes modulares.
 - O `getpass` garante segurança ao capturar a API Key do usuário.
 
 ---
 
-Feito com 💙 por [Seu Nome]
+Feito com 💙 por [Marcos Vinícius Motta]
