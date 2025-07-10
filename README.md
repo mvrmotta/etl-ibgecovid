@@ -11,8 +11,8 @@ Este projeto tem como objetivo demonstrar um pipeline ETL utilizando Python, int
 - **SQLite3** (armazenamento relacional simples)
 - **Jupyter Notebook** (execução e visualização)
 - **APIs utilizadas**:
-  - [IBGE - População por município (API de agregados)](https://servicodados.ibge.gov.br/api/docs/agregados)
-  - [Brasil.IO - Dados de COVID-19](https://brasil.io/dataset/covid19/)
+  - [IBGE - População por município (API de agregados)](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2021/variaveis/9324?localidades=N6[all])
+  - [Brasil.IO - Dados de COVID-19](https://api.brasil.io/v1/dataset/covid19/caso_full/data/?is_last=True&place_type=city)
 
 ---
 
